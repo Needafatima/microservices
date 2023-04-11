@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    </head>
+    <body style="background-color:powderblue;">
+        <div class="container">
+            <h2>Student registration form</h2><br>
+            <form method='post' action='insert'>
+                <div class="form-group" >
+                    <label for="sname">Student Name</label>
+                    <input class="form-control" type="text" placeholder="" id="sname" name="sname">
+                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+            </div>
+            <div class="form-group">
+                <label for="srn">SRN</label>
+                <input class="form-control" type="text" placeholder="" id="srn" name="srn">
+            </div>
+            <div class="form-group">
+                <label for="rollno">Roll No</label>
+                <input class="form-control" type="text" placeholder="" id="rollno" name="rollno">
+            </div>
+            <div class="form-group">
+                <label for="semno">Semester</label>
+                <input class="form-control" type="text" placeholder="" id="semno" name="semno">
+            </div>
+            <div class="form-group">
+                <label for="ccount">No of courses</label>
+                <input class="form-control" type="text" placeholder="" id="ccount" name="ccount">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="cname">course name</label>
+                <select id="cname" class="form-control">
+                  <option selected>course</option>
+                  <option>webtech</option>
+                  <option>System software</option>
+                  <option>Operating system</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="cname">course code</label>
+                <select id="cname" class="form-control">
+                  <option selected>course code</option>
+                  <option>20csc2019</option>
+                  <option>22csc3448</option>
+                  <option>21ece2000</option>
+                </select>
+              </div><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </body>
+    </form>
+    </div>
+    </html>
